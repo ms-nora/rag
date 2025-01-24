@@ -16,9 +16,12 @@ Ensure you have the following dependencies installed:
 - `llama_index`
 
 
-Make sure your books, files, and other data are stored and properly organized in the correct file path or storage location (Google Drive, Dropbox, local storage, etc.). The FAISS index will be created from these sources for use in the RAG bot.
-
+Make sure your books, files, and other data are stored and properly organized in the correct file path or storage location (Google Drive, Dropbox, local storage, etc.). 
+The FAISS index will be created from these sources and must be accessible to the RAG bot, along with the corresponding .pkl file.
+A Hugging Face token is necessary for it to work properly.
 All files and books must be in TXT format.
+
+I worked with google colab.
 
 ## Usage  
 ### 1. Create the FAISS index  
