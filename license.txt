@@ -1,0 +1,18 @@
+# Personal Use License  
+# Personal Use License  
+
+This project is licensed for **personal and private use only**.  
+
+## Restrictions  
+- You may **not** use this project for **commercial purposes**.  
+- You may **not** distribute, sublicense, or sell copies of this software.  
+- You may **not** use this project for any **patents, trademarks, or proprietary claims**.  
+- You may **modify** the code for personal use, but modifications must remain private.  
+
+## Disclaimer & No Liability  
+This software is provided **"as is"**, without warranty of any kind, express or implied.  
+The author makes **no guarantees** regarding functionality, security, or reliability.  
+
+**Under no circumstances** shall the author be liable for any claims, damages, or liabilities arising from the use of this project.  
+
+By using this software, you acknowledge and agree to these terms.  
