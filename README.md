@@ -21,7 +21,6 @@ The FAISS index will be created from these sources and must be accessible to the
 A Hugging Face token is necessary for it to work properly.
 All files and books must be in TXT format.
 
-I worked with google colab.
 
 ## Usage  
 ### 1. Create the FAISS index  
