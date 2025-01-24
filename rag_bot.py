@@ -133,15 +133,15 @@ tunnel_prep()
 
 !streamlit run rag_app.py &>/content/logs.txt &
 
-"""# Debugging"""
 
-#OPTIONAL: Debugging (remove or set DEBUG = False for production)
+
+#OPTIONAL: Debugging (remove or set DEBUG = False for production)---------------------------
 DEBUG = False
 if DEBUG:
     st.write("Debugging Chat History:", st.session_state.messages)
 
 
-"""# Debuggin - uncomment the code below for purpose of debuggin """
+# Debuggin (check if token works) - uncomment the code below for purpose of debuggin-------------------------------------
 
 #import requests
 
