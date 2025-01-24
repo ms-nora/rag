@@ -13,7 +13,9 @@ Ensure you have the following dependencies installed:
 - `transformers`
 - `sentence-transformers`
 - `torch`
-- `llama_index`  
+- `llama_index`
+
+
 Make sure your books, files, and other data are stored and properly organized in the correct file path or storage location (Google Drive, Dropbox, local storage, etc.). The FAISS index will be created from these sources for use in the RAG bot.
 
 All files and books must be in TXT format.
