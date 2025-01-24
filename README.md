@@ -14,7 +14,7 @@ Ensure you have the following dependencies installed:
 - `sentence-transformers`
 - `torch`
 - `llama_index`  
-
+Also have your books, files etc stored and prepared on the right file path - so the faiss index can be created from this source to be used for the RAG.
 
 ## Usage  
 ### 1. Create the FAISS index  
