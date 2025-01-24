@@ -57,7 +57,7 @@ query_result
 
 
 
-"""# Debuggin - (uncomment the code below for debuggin)"""
+"""# Debuggin - uncomment the code below for debuggin"""
 
 """# check the dimensions"""
 
@@ -70,7 +70,7 @@ query_result
 #results = vector_db.similarity_search(query, k=2)
 
 #for result in results:
-    print(result)
+    #print(result)
 
 """# Test the model """
 
@@ -86,7 +86,7 @@ query_result
 
 
 #prompt = PromptTemplate(template=input_template,
-                        input_variables=["context", "question"])
+                        #input_variables=["context", "question"])
 
 #from langchain.chains import RetrievalQA
 
