@@ -15,10 +15,6 @@ Ensure you have the following dependencies installed:
 - `torch`
 - `llama_index`  
 
-Install all dependencies with:  
-```bash
-pip install -r requirements.txt
-```
 
 ## Usage  
 ### 1. Create the FAISS index  
