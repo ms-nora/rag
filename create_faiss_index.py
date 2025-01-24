@@ -1,12 +1,9 @@
-# Install libraries
-"""
 
-# Commented out IPython magic to ensure Python compatibility.
-# %%bash
-# pip install -qqq -U langchain-huggingface
-# pip install -qqq -U langchain
-# pip install -qqq -U langchain-community
-# pip install -qqq -U faiss-cpu
+%%bash
+pip install -qqq -U langchain-huggingface
+pip install -qqq -U langchain
+pip install -qqq -U langchain-community
+pip install -qqq -U faiss-cpu
 
 import os
 from google.colab import userdata #if token is stored in secrets
@@ -52,14 +49,14 @@ vector_db.save_local("/content/faiss_index")
 
 test_text = "Whhat is a bug"
 query_result = embeddings.embed_query(test_text)
-query_result
+query_result 
 
 
 
 
-"""# Debuggin - uncomment the code below for debuggin"""
+#Debuggin - uncomment the code below for debuggin 
 
-"""# check the dimensions"""
+#check the dimensions--------------
 
 #characters = len(test_text)
 #dimensions = len(query_result)
@@ -72,7 +69,7 @@ query_result
 #for result in results:
     #print(result)
 
-"""# Test the model """
+#Test the model-----------------------
 
 #from langchain.prompts.prompt import PromptTemplate
 
@@ -101,11 +98,12 @@ query_result
 
 #answer
 
-"""# Test if the model is using sources"""
+#Test if the model is using sources-----------------------
 
 #answer.keys()
 #answer['source_documents']
 #answer['source_documents'][0].page_content
 #print(answer['source_documents'][0].page_content)
 
+#Test if the model gives back the metadata----------------
 #answer['source_documents'][0].metadata
