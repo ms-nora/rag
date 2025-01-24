@@ -14,7 +14,9 @@ Ensure you have the following dependencies installed:
 - `sentence-transformers`
 - `torch`
 - `llama_index`  
-Also have your books, files etc stored and prepared on the right file path - so the faiss index can be created from this source to be used for the RAG.
+Make sure your books, files, and other data are stored and properly organized in the correct file path or storage location (Google Drive, Dropbox, local storage, etc.). The FAISS index will be created from these sources for use in the RAG bot.
+
+All files and books must be in TXT format.
 
 ## Usage  
 ### 1. Create the FAISS index  
